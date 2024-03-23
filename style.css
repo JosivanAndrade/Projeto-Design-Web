@@ -1,0 +1,125 @@
+
+/*Corpo do site com todas especificações de fonte, posicionamento, cor de fundo e etc...*/
+
+body{
+    width: 100%;
+    height: 100%;
+    background-color: #02022c;
+    margin: 0;
+    position: static; 
+    
+}
+
+.color-red {
+color:rgb(155, 8, 8)
+}
+
+/*Cabeçalho*/
+
+.header{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    background-color: #0a0a49;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+       
+
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color:white;
+    font-size: 19px;
+    gap: 40px;
+    cursor: pointer;
+    padding-right: 17px;
+    list-style: none; 
+    margin: 30px
+    
+
+}
+
+.acesso{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+    color: white;
+    cursor: pointer;
+   
+}
+.container{
+    display: flex;
+}
+
+/* Ajustando tamanho e posição da imagem*/
+.album img {
+   
+    width: 805px;
+    height: 684px;
+    
+
+}
+    /*Definindo posição e cor dos botoes */
+.botoes{
+    display: flex;
+    gap: 100px;
+    margin-top: -80px;
+}
+.botao-1{
+    width: 250px;
+    height: 80px;
+    border-radius: 50px;
+    background-color: #d3440f;
+    color: #fff;
+    font-size: 25px;
+}
+.botao-2{
+    width: 250px;
+    height: 80px;
+    border-radius: 50px;
+    background-color:#563db1;;
+    color: #fff;
+    font-size: 25px;
+}
+
+.texto{
+    width: 709px;
+    height: 500px;
+    text-align: left;
+    margin: 20px;
+    color: white;
+    
+
+}
+
+.texto h1{
+    font-size: 100px;
+    color: #fff;
+}
+
+.texto p{
+    width: 700px;
+    height: 237px;
+    font-size: 25px;
+    color: #fff;
+
+}
+/* Rodapé da página*/
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100vw;
+    background-color:#0a0a49;
+    padding: 20px;
+    font-size: 24px;
+}
+
+
+
+
+
